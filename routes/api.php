@@ -2,19 +2,12 @@
 
 use App\liee;
 use App\Taxe;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| API Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register API routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| is assigned the "api" middleware group. Enjoy building your API!
-|
-*/
+
+
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
@@ -44,8 +37,15 @@ Route::get('/liees',function(){
 Route::get('/taxes',function(){
   $taxes=Taxe::Take(12)->get();
   header('Access-Control-Allow-Origin: *');
-
-
-  return json_encode($taxes);
+ return json_encode($taxes);
 
 });
+
+Route::get('/data',function(){
+
+  
+  return Taxe::selectRaw('count(id)as total , MONTHNAME(created_at) as mo')->groupBy('mo')->get();
+ 
+});
+
+//->middleware('auth:api');
