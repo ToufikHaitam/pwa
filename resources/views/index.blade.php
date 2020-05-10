@@ -1,4 +1,4 @@
- 
+
 <!doctype html>
 <html lang="en">
 
@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="css/style-starter.css">
 
 
- 
+
 
 
 
@@ -40,7 +40,7 @@
     <div class="logo">
       <h1><a href="index.html">Collective</a></h1>
     </div>
-    
+
 
   <!-- if logo is image enable this -->
     <!-- image logo --
@@ -66,14 +66,14 @@
           <a href="#"><i class="fa fa-cogs"></i>
             <span>Elements <i class="lnr lnr-chevron-right"></i></span></a>
           <ul class="sub-menu-list">
-            <li><a href="carousels.html">Carousels</a> </li>
-            <li><a href="cards.html">Default cards</a> </li>
-            <li><a href="people.html">People cards</a></li>
+            <li><a href="starter/carousels.html">Carousels</a> </li>
+            <li><a href="starter/cards.html">Default cards</a> </li>
+            <li><a href="starter/people.html">People cards</a></li>
           </ul>
         </li>
-        <li><a href="pricing.html"><i class="fa fa-table"></i> <span>Pricing tables</span></a></li>
-        <li><a href="blocks.html"><i class="fa fa-th"></i> <span>Content blocks</span></a></li>
-        <li><a href="forms.html"><i class="fa fa-file-text"></i> <span>Forms</span></a></li>
+        <li><a href="starter/pricing.html"><i class="fa fa-table"></i> <span>Pricing tables</span></a></li>
+        <li><a href="starter/blocks.html"><i class="fa fa-th"></i> <span>Content blocks</span></a></li>
+        <li><a href="starter/forms.html"><i class="fa fa-file-text"></i> <span>Forms</span></a></li>
       </ul>
       <!-- //sidebar nav end -->
       <!-- toggle button start -->
@@ -298,7 +298,7 @@ window.addEventListener('offline', () =>{ console.log('came offline');document.g
         <div class="col-lg-6 pr-lg-2 chart-grid">
           <div class="card text-center card_border">
             <div class="card-header chart-grid__header">
-             
+
             </div>
             <div class="card-body">
               <!-- bar chart -->
@@ -342,23 +342,23 @@ window.addEventListener('offline', () =>{ console.log('came offline');document.g
               <div id="example_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="example_length"><label></label></div><div id="example_filter" class="dataTables_filter"><label><input type="search" class="" placeholder="Search" aria-controls="example"></label></div><table id="example" class="display dataTable no-footer" style="width: 100%;" role="grid" aria-describedby="example_info">
                 <thead>
                   <tr role="row">
-                    <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                    <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
                     aria-sort="ascending" aria-label="Emp. Name: activate to sort column descending" style="width: 44px;">
-                    N-Fiche</th><th class="sorting" tabindex="0" aria-controls="example" rowspan="1" 
+                    N-Fiche</th><th class="sorting" tabindex="0" aria-controls="example" rowspan="1"
                     colspan="1" aria-label="Designation: activate to sort column ascending" style="width: 89px;">
                     Nationalite</th>
-                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" 
+                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
                     aria-label="Joining date: activate to sort column ascending" style="width: 80px;">
-                    Date-Debut</th><th class="sorting" tabindex="0" aria-controls="example" rowspan="1" 
+                    Date-Debut</th><th class="sorting" tabindex="0" aria-controls="example" rowspan="1"
                     colspan="1" aria-label="Emp. Status: activate to sort column ascending" style="width: 97px;">Date_fin</th>
-                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" 
+                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1"
                     colspan="1" aria-label="Emp. Status: activate to sort column ascending" style="width: 97px;">Statut</th>
-                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" 
+                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1"
                     colspan="1" aria-label="Emp. Status: activate to sort column ascending" style="width: 97px;">Action</th>
                      </tr>
                 </thead>
                 <tbody>
-                 
+
                 <tr role="row" class="odd">
                     <td class="sorting_1"><img src="images/avatar5.jpg" class="rounded-circle mr-2" width="40px" alt="">
                       1232535</td>
@@ -369,62 +369,63 @@ window.addEventListener('offline', () =>{ console.log('came offline');document.g
                     <td>
                       <span class="badge badge-primary">  <i class="fa fa-search" aria-hidden="true"></i></span>
                        <span class="badge badge-success">  <i class="fa fa-pencil" aria-hidden="true"></i> </span>
-                       <span class="badge badge-warning">  <i class="fa fa-book" aria-hidden="true"></i> </span>   
-                       <span class="badge badge-danger">  <i class="fa fa-trash" aria-hidden="true"></i> </span> 
+                       <span class="badge badge-warning">  <i class="fa fa-book" aria-hidden="true"></i> </span>
+                       <span class="badge badge-danger">  <i class="fa fa-trash" aria-hidden="true"></i> </span>
                      </td>
-                     
 
-                    
-                  </tr><tr role="row" class="odd">
-                    <td class="sorting_1"><img src="images/avatar5.jpg" class="rounded-circle mr-2" width="40px" alt="">
-                      1232535</td>
-                    <td>Marocain</td>
-                    <td>08/01/2020</td>
-                    <td>09/01/2020</td>
-                    <td><span class="badge badge-warning">In active</span></td>
-                    <td>
-                      <span class="badge badge-primary">  <i class="fa fa-search" aria-hidden="true"></i></span>
-                       <span class="badge badge-success">  <i class="fa fa-pencil" aria-hidden="true"></i> </span>
-                       <span class="badge badge-warning">  <i class="fa fa-book" aria-hidden="true"></i> </span>   
-                       <span class="badge badge-danger">  <i class="fa fa-trash" aria-hidden="true"></i> </span> 
-                     </td>
-                     
 
-                    
-                  </tr><tr role="row" class="odd">
-                    <td class="sorting_1"><img src="images/avatar5.jpg" class="rounded-circle mr-2" width="40px" alt="">
-                      1232535</td>
-                    <td>Marocain</td>
-                    <td>08/01/2020</td>
-                    <td>09/01/2020</td>
-                    <td><span class="badge badge-warning">In active</span></td>
-                    <td>
-                      <span class="badge badge-primary">  <i class="fa fa-search" aria-hidden="true"></i></span>
-                       <span class="badge badge-success">  <i class="fa fa-pencil" aria-hidden="true"></i> </span>
-                       <span class="badge badge-warning">  <i class="fa fa-book" aria-hidden="true"></i> </span>   
-                       <span class="badge badge-danger">  <i class="fa fa-trash" aria-hidden="true"></i> </span> 
-                     </td>
-                     
 
-                    
-                  </tr><tr role="row" class="odd">
-                    <td class="sorting_1"><img src="images/avatar5.jpg" class="rounded-circle mr-2" width="40px" alt="">
-                      1232535</td>
-                    <td>Marocain</td>
-                    <td>08/01/2020</td>
-                    <td>09/01/2020</td>
-                    <td><span class="badge badge-warning">In active</span></td>
-                    <td>
-                      <span class="badge badge-primary">  <i class="fa fa-search" aria-hidden="true"></i></span>
-                       <span class="badge badge-success">  <i class="fa fa-pencil" aria-hidden="true"></i> </span>
-                       <span class="badge badge-warning">  <i class="fa fa-book" aria-hidden="true"></i> </span>   
-                       <span class="badge badge-danger">  <i class="fa fa-trash" aria-hidden="true"></i> </span> 
-                     </td>
-                     
-
-                    
                   </tr>
-                  
+                  <tr role="row" class="odd">
+                    <td class="sorting_1"><img src="images/avatar5.jpg" class="rounded-circle mr-2" width="40px" alt="">
+                      1232535</td>
+                    <td>Marocain</td>
+                    <td>08/01/2020</td>
+                    <td>09/01/2020</td>
+                    <td><span class="badge badge-warning">In active</span></td>
+                    <td>
+                      <span class="badge badge-primary">  <i class="fa fa-search" aria-hidden="true"></i></span>
+                       <span class="badge badge-success">  <i class="fa fa-pencil" aria-hidden="true"></i> </span>
+                       <span class="badge badge-warning">  <i class="fa fa-book" aria-hidden="true"></i> </span>
+                       <span class="badge badge-danger">  <i class="fa fa-trash" aria-hidden="true"></i> </span>
+                     </td>
+
+
+
+                  </tr><tr role="row" class="odd">
+                    <td class="sorting_1"><img src="images/avatar5.jpg" class="rounded-circle mr-2" width="40px" alt="">
+                      1232535</td>
+                    <td>Marocain</td>
+                    <td>08/01/2020</td>
+                    <td>09/01/2020</td>
+                    <td><span class="badge badge-warning">In active</span></td>
+                    <td>
+                      <span class="badge badge-primary">  <i class="fa fa-search" aria-hidden="true"></i></span>
+                       <span class="badge badge-success">  <i class="fa fa-pencil" aria-hidden="true"></i> </span>
+                       <span class="badge badge-warning">  <i class="fa fa-book" aria-hidden="true"></i> </span>
+                       <span class="badge badge-danger">  <i class="fa fa-trash" aria-hidden="true"></i> </span>
+                     </td>
+
+
+
+                  </tr><tr role="row" class="odd">
+                    <td class="sorting_1"><img src="images/avatar5.jpg" class="rounded-circle mr-2" width="40px" alt="">
+                      1232535</td>
+                    <td>Marocain</td>
+                    <td>08/01/2020</td>
+                    <td>09/01/2020</td>
+                    <td><span class="badge badge-warning">In active</span></td>
+                    <td>
+                      <span class="badge badge-primary">  <i class="fa fa-search" aria-hidden="true"></i></span>
+                       <span class="badge badge-success">  <i class="fa fa-pencil" aria-hidden="true"></i> </span>
+                       <span class="badge badge-warning">  <i class="fa fa-book" aria-hidden="true"></i> </span>
+                       <span class="badge badge-danger">  <i class="fa fa-trash" aria-hidden="true"></i> </span>
+                     </td>
+
+
+
+                  </tr>
+
                    </tbody>
               </table><div class="dataTables_info" id="example_info" role="status" aria-live="polite">Showing 1 to 5 of 19 entries</div><div class="dataTables_paginate paging_simple_numbers" id="example_paginate"><a class="paginate_button previous disabled" aria-controls="example" data-dt-idx="0" tabindex="-1" id="example_previous">Previous</a><span><a class="paginate_button current" aria-controls="example" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="example" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="example" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="example" data-dt-idx="4" tabindex="0">4</a></span><a class="paginate_button next" aria-controls="example" data-dt-idx="5" tabindex="0" id="example_next">Next</a></div></div>
             </div>
@@ -837,7 +838,7 @@ window.addEventListener('offline', () =>{ console.log('came offline');document.g
                   </button>
 
 
-                  
+
                   <!-- Modal -->
                   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
                     aria-labelledby="exampleModalLabel" aria-hidden="true" width="100000px">
@@ -851,7 +852,7 @@ window.addEventListener('offline', () =>{ console.log('came offline');document.g
                         </div>
                         <div class="modal-body">
                         <div class="card card_border py-2 mb-2">
-                         
+
                         <div class="card-body">
                     <form action="#" method="post">
                         <div class="form-row">
@@ -990,15 +991,106 @@ window.addEventListener('offline', () =>{ console.log('came offline');document.g
 <div class="learndash-group-results"><div class="filters-groups">
 			<h4>User Last Score Filter</h4>
 			<p>Min Date : <input class="date-picker-min" type="date"></p>
-			<p>Max Date : <input class="date-picker-max" type="date"></p></div><table class="datatables-users-quiz-table" data-scroll-x="true" ><thead><tr><th scope="col">Users</th><th data-filter="1473600269">Introduce yourself : Micki B1</th><th data-filter="1412794047">Present perfect A2</th><th data-filter="1473331264">Reading: Gandhi</th><th data-filter="1475060251">Might A2</th><th data-filter="1475340780">Viva the vuvuzela B1</th><th data-filter="1475861112">Nelson Mandela B1</th></tr></thead><tbody><tr><th scope="row">Anderson</th><td class="quiz-not-passed" data-order="63.16">63.16</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="90">90</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="91.89">91.89</td></tr><tr><th scope="row">Anderson</th><td class="quiz-not-passed" data-order="57.14">57.14</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td></tr><tr><th scope="row">Christopher</th><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="80.77">80.77</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="90">90</td><td class="quiz-passed" data-order="92.86">92.86</td><td class="quiz-passed" data-order="83.78">83.78</td></tr><tr><th scope="row">Cunningham</th><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-not-passed" data-order="0">0</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td></tr><tr><th scope="row">Cunningham</th><td class="quiz-not-passed" data-order="73.68">73.68</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="95">95</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="81.08">81.08</td></tr><tr><th scope="row">Cunningham</th><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-not-passed" data-order="73.08">73.08</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-not-passed" data-order="60">60</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td></tr><tr><th scope="row">Ethan</th><td class="quiz-passed" data-order="94.74">94.74</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="95">95</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td></tr><tr><th scope="row">John</th><td class="quiz-passed" data-order="85.71">85.71</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="85">85</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-not-passed" data-order="75.68">75.68</td></tr><tr><th scope="row">Johnson</th><td class="quiz-passed" data-order="100">100</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="95">95</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="81.08">81.08</td></tr><tr><th scope="row">Mercado</th><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-not-passed" data-order="70">70</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-not-passed" data-order="56.76">56.76</td></tr><tr><th scope="row">Mercado</th><td class="quiz-not-passed" data-order="26.32">26.32</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="80">80</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="83.78">83.78</td></tr><tr><th scope="row">Mercado</th><td class="quiz-not-passed" data-order="73.68">73.68</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="90">90</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td></tr><tr><th scope="row">Mercado</th><td class="quiz-not-passed" data-order="26.32">26.32</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-not-passed" data-order="0">0</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td></tr><tr><th scope="row">Samantha</th><td class="quiz-passed" data-order="100">100</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="100">100</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="94.59">94.59</td></tr><tr><th scope="row">Samantha</th><td class="quiz-passed" data-order="94.74">94.74</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="85">85</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td></tr><tr><th scope="row">Sarah</th><td class="quiz-not-passed" data-order="73.68">73.68</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="100">100</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="100">100</td></tr><tr><th scope="row">Simpson</th><td class="quiz-passed" data-order="85.71">85.71</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td></tr><tr><th scope="row">Thompson</th><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="80">80</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-not-passed" data-order="75.68">75.68</td></tr><tr><th scope="row">Thompson</th><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-not-passed" data-order="75.68">75.68</td></tr><tr><th scope="row">Tremblay</th><td class="quiz-not-passed" data-order="61.9">61.9</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="95">95</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td></tr><tr><th scope="row">Tremblay</th><td class="quiz-not-passed" data-order="68.42">68.42</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-not-passed" data-order="70">70</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td></tr><tr><th scope="row">Walker</th><td class="quiz-not-passed" data-order="26.32">26.32</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="95">95</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="91.89">91.89</td></tr><tr><th scope="row">Zoey</th><td class="quiz-not-passed" data-order="63.16">63.16</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-passed" data-order="80">80</td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td><td class="quiz-none"><span class="learndash-users-tables-none" data-order="-1">None</span></td></tr></tbody></table></div>
-<script>
+      <p>Max Date : <input class="date-picker-max" type="date"></p></div>
+      <table class="datatables-users-quiz-table" data-scroll-x="true" >
+      <thead>
+                  <tr role="row">
+                    <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                    aria-sort="ascending" aria-label="Emp. Name: activate to sort column descending" style="width: 44px;">
+                    N-Fiche</th><th class="sorting" tabindex="0" aria-controls="example" rowspan="1"
+                    colspan="1" aria-label="Designation: activate to sort column ascending" style="width: 89px;">
+                    Nationalite</th>
+                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                    aria-label="Joining date: activate to sort column ascending" style="width: 80px;">
+                    Date-Debut</th><th class="sorting" tabindex="0" aria-controls="example" rowspan="1"
+                    colspan="1" aria-label="Emp. Status: activate to sort column ascending" style="width: 97px;">Date_fin</th>
+                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1"
+                    colspan="1" aria-label="Emp. Status: activate to sort column ascending" style="width: 97px;">Statut</th>
+                    <th class="sorting" tabindex="0" aria-controls="example" rowspan="1"
+                    colspan="1" aria-label="Emp. Status: activate to sort column ascending" style="width: 97px;">Action</th>
+                     </tr>
+                </thead>
+                <tbody>
+
+                <tr role="row" class="odd">
+                    <td class="sorting_1"><img src="images/avatar5.jpg" class="rounded-circle mr-2" width="40px" alt="">
+                      1232535</td>
+                    <td>Marocain</td>
+                    <td class="date-picker-min">08/01/2020</td>
+                    <td class="date-picker-max">09/01/2020</td>
+                    <td><span class="badge badge-warning">In active</span></td>
+                    <td>
+                      <span class="badge badge-primary">  <i class="fa fa-search" aria-hidden="true"></i></span>
+                       <span class="badge badge-success">  <i class="fa fa-pencil" aria-hidden="true"></i> </span>
+                       <span class="badge badge-warning">  <i class="fa fa-book" aria-hidden="true"></i> </span>
+                       <span class="badge badge-danger">  <i class="fa fa-trash" aria-hidden="true"></i> </span>
+                     </td>
+
+
+
+                  </tr>
+                  <tr role="row" class="odd">
+                    <td class="sorting_1"><img src="images/avatar5.jpg" class="rounded-circle mr-2" width="40px" alt="">
+                      1232535</td>
+                    <td>Marocain</td>
+                    <td class="date-picker-min">08/01/2020</td>
+                    <td class="date-picker-max">09/01/2020</td>
+                    <td><span class="badge badge-warning">In active</span></td>
+                    <td>
+                      <span class="badge badge-primary">  <i class="fa fa-search" aria-hidden="true"></i></span>
+                       <span class="badge badge-success">  <i class="fa fa-pencil" aria-hidden="true"></i> </span>
+                       <span class="badge badge-warning">  <i class="fa fa-book" aria-hidden="true"></i> </span>
+                       <span class="badge badge-danger">  <i class="fa fa-trash" aria-hidden="true"></i> </span>
+                     </td>
+
+
+
+                  </tr><tr role="row" class="odd">
+                    <td class="sorting_1"><img src="images/avatar5.jpg" class="rounded-circle mr-2" width="40px" alt="">
+                      1232535</td>
+                    <td>Marocain</td>
+                    <td class="date-picker-min">08/01/2020</td>
+                    <td class="date-picker-max">09/01/2020</td>
+                    <td><span class="badge badge-warning">In active</span></td>
+                    <td>
+                      <span class="badge badge-primary">  <i class="fa fa-search" aria-hidden="true"></i></span>
+                       <span class="badge badge-success">  <i class="fa fa-pencil" aria-hidden="true"></i> </span>
+                       <span class="badge badge-warning">  <i class="fa fa-book" aria-hidden="true"></i> </span>
+                       <span class="badge badge-danger">  <i class="fa fa-trash" aria-hidden="true"></i> </span>
+                     </td>
+
+
+
+                  </tr><tr role="row" class="odd">
+                    <td class="sorting_1"><img src="images/avatar5.jpg" class="rounded-circle mr-2" width="40px" alt="">
+                      1232535</td>
+                    <td>Marocain</td>
+                    <td class="date-picker-min">08/01/2020</td>
+                    <td class="date-picker-max">09/01/2020</td>
+                    <td><span class="badge badge-warning">In active</span></td>
+                    <td>
+                      <span class="badge badge-primary">  <i class="fa fa-search" aria-hidden="true"></i></span>
+                       <span class="badge badge-success">  <i class="fa fa-pencil" aria-hidden="true"></i> </span>
+                       <span class="badge badge-warning">  <i class="fa fa-book" aria-hidden="true"></i> </span>
+                       <span class="badge badge-danger">  <i class="fa fa-trash" aria-hidden="true"></i> </span>
+                     </td>
+
+
+
+                  </tr>
+
+                   </tbody>
+              </table>
+
+
+              <script>
 
 // No conflict for WordPress
 var $j = jQuery.noConflict();
 
 $j( function() {
 	$j(".date-picker-min").datepicker({
-	  dateFormat: "yy-mm-dd";
+	  dateFormat: "yy-mm-dd"
 	});
 	$j( ".date-picker-max" ).datepicker({
 	  dateFormat:"yy-mm-dd"
@@ -1010,8 +1102,8 @@ $j(document).ready(function(){
 
     var table2 = $j('.datatables-users-quiz-table').DataTable({
 		"order": [[ 0, "asc" ]],
-		"paging": false,
-		"bLengthChange": false,
+		"paging": true,
+		"bLengthChange": true,
 		"bInfo": false,
 		"dom": 'Bfrtip',
 		"buttons": [
@@ -1080,7 +1172,7 @@ $j(document).ready(function(){
 
 
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.css"/>
- 
+
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/jquery.dataTables.min.js"></script>
 
@@ -1142,4 +1234,3 @@ $j(document).ready(function(){
 </body>
 
 </html>
-  

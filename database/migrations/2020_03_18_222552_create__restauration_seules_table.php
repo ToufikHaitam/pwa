@@ -18,8 +18,8 @@ class CreateRestaurationSeulesTable extends Migration
             $table->double("montant_restoration");
             $table->double("montant_boissons");
             $table->double("montant_supplimentaires");
-            $table->unsignedBigInteger('etblissement_id');
-            $table->foreign('etblissement_id')->references('id')->on('etblissements'); 
+            $table->unsignedBigInteger('etablissement_id');
+            $table->foreign('etablissement_id')->references('id')->on('etablissements'); 
             $table->timestamps();
         });
     }

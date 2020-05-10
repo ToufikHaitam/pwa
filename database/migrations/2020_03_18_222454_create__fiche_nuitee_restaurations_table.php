@@ -19,7 +19,7 @@ class CreateFicheNuiteeRestaurationsTable extends Migration
             $table->dateTime('date_depart');
             $table->integer('nombre_mineurs15');
             $table->integer('nombre_mineurs1518'); 
-            $table->integer('num_chmabre');	
+            $table->integer('num_chambre');	
             $table->double("montant_restoration");
             $table->double("montant_boissons");
             $table->double("montant_supplimentaires");

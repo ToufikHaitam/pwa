@@ -7,15 +7,13 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 
-
-
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::post('/postdata',function(Request $request){
   $validatedData = $request->validate([
     'email' => 'required|unique:liees|max:255',
-    
+
 ]);
 $liee= new liee();
 $liee->email=$request->input('email');
@@ -32,7 +30,7 @@ Route::get('/liees',function(){
   return json_encode(liee::all());
 });
 
- 
+
 
 Route::get('/taxes',function(){
   $taxes=Taxe::Take(12)->get();
@@ -43,9 +41,9 @@ Route::get('/taxes',function(){
 
 Route::get('/data',function(){
 
-  
+
   return Taxe::selectRaw('count(id)as total , MONTHNAME(created_at) as mo')->groupBy('mo')->get();
- 
+
 });
 
 //->middleware('auth:api');

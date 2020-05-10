@@ -19,7 +19,7 @@ class CreateFicheNuiteesTable extends Migration
             $table->dateTime('date_depart');
             $table->integer('nombre_mineurs15');
             $table->integer('nombre_mineurs1518'); 
-            $table->integer('num_chmabre');	
+            $table->integer('num_chambre');	
             $table->unsignedBigInteger('fiche_hebergement_id');
             $table->foreign('fiche_hebergement_id')->references('id')->on('fiche_hebergements');
             $table->timestamps();

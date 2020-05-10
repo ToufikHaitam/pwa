@@ -15,8 +15,8 @@ class CreateTeledeclarationsTable extends Migration
     {
         Schema::create('teledeclarations', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedBigInteger('etblissement_id');
-            $table->foreign('etblissement_id')->references('id')->on('etblissements'); 
+            $table->unsignedBigInteger('etablissement_id');
+            $table->foreign('etablissement_id')->references('id')->on('etablissements'); 
             $table->integer("mois");
             $table->integer("annee");
 
