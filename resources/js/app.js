@@ -1,10 +1,5 @@
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
-
 require('./bootstrap');
+<<<<<<< Updated upstream
 
 window.Vue = require('vue');
 
@@ -32,3 +27,5 @@ Vue.component('crud', require('./components/crud.vue').default);
 const app = new Vue({
     el: '#app',
 });
+=======
+>>>>>>> Stashed changes

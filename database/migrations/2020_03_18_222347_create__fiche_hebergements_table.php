@@ -14,7 +14,7 @@ class CreateFicheHebergementsTable extends Migration
     public function up()
 
     {
-
+        
         Schema::create('fiche_hebergements', function (Blueprint $table) {
             $table->string("nom",30)->nullable($value=false);
             $table->string("profession",30)->nullable($value=false);
@@ -22,9 +22,15 @@ class CreateFicheHebergementsTable extends Migration
             $table->dateTime('date_delivrance');
             $table->string('pays',32);
             $table->integer('num_piece');
+<<<<<<< Updated upstream
             $table->String('lieu_naissance');
 
             $table->unsignedBigInteger('etablissement_id');
+=======
+            $table->String('lieu_naissance');	
+           
+            $table->unsignedBigInteger('etblissement_id');
+>>>>>>> Stashed changes
             $table->unsignedBigInteger('sexe_id');
 
             $table->unsignedBigInteger('motif_id');
@@ -35,7 +41,7 @@ class CreateFicheHebergementsTable extends Migration
             $table->unsignedBigInteger('type_piece_id');
             $table->foreign('etablissement_id')->references('id')->on('etablissements');
             $table->foreign('sexe_id')->references('id')->on('sexes');
-            $table->foreign('type_piece_id')->references('id')->on('typepieces');
+            $table->foreign('type_piece_id')->references('id')->on('type_pieces');
             $table->bigIncrements('id');
             $table->timestamps();
         });

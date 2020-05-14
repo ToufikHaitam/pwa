@@ -1,15 +1,29 @@
 <?php
 
+<<<<<<< Updated upstream
 use Facade\FlareClient\View;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
  use Illuminate\Support\Facades\Route;
+=======
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+>>>>>>> Stashed changes
 
 Route::get('/', function () {
     return view('welcome');
 });
 
 
+<<<<<<< Updated upstream
 Route::resource('fichehebergement','FicheHebergementController');
  
  
@@ -46,3 +60,5 @@ Route::get('/acee',function(){
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+=======
+>>>>>>> Stashed changes

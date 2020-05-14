@@ -16,18 +16,17 @@
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
 <script type="text/javascript" src="js/liee.js"></script>
-
 <script type="text/javascript" >
 
-
-
+ 
+ 
 
 
 
 </script>
-
+   
     <script>
-
+ 
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
 		}, false);
@@ -46,7 +45,7 @@
    height: 100%;
    z-index: 9999;
    background-image: url('/images/load.gif');
-   background-repeat: no-repeat;
+   background-repeat: no-repeat; 
    background-color: #FFF;
    background-position: center;
 }
@@ -57,14 +56,10 @@
       }
     </style>
 
-
-
-
-
     <script type="text/javascript">
 
 function load(){
-    $('#myTable').html('');
+    $('#myTable').html('');   
 $.ajax({
     url: '/api/liees',
     dataType: 'json',
@@ -83,7 +78,7 @@ $.ajax({
 
 
 function loadcache(){
-
+ 
  readAll();
  console.log("ana hna");
  var data=readAll();
@@ -92,7 +87,7 @@ function loadcache(){
             $('#mycache').innerHTML='<table id="mycache" style=" padding: 10px;border: 1px solid black; border-collapse: collapse;"><tbody></tbody></table>';
             $('#mycache').append(row);
         }
-
+ 
  }
 </script>
 	<!-- Meta tag Keywords -->
@@ -117,33 +112,31 @@ function loadcache(){
         <!-- //title -->
         <div class="preloader"></div>
         <script>
-
+        
    $('.preloader').hide();
  </script>
 		<div class="sub-main-w3">
-			<div class="image-style" id="app">
+			<div class="image-style">
 
-                <example-component></example-component>
 			</div>
-
 			<!-- vertical tabs -->
 			<div class="vertical-tab">
             <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-
+            
 
          		<div id="section1" class="section-w3ls">
 					<input type="radio" name="sections" id="option1" checked>
 					<label for="option1" class="icon-left-w3pvt">
                         <span class="fa fa-plus" aria-hidden="true"></span>Ajout data </label>
 					<article>
-                    <p><button class="w3-btn w3-red" id="server" width="100%">
+                    <p><button class="w3-btn w3-red" id="server" width="100%"> 
                      </button><span class="w3-badge w3-margin-left w3-green" id="span"></span>
                      <button id="sync" class="w3-badge w3-margin-left w3-green" style="margin-left: 400px" value="sync">sync</button>
-
+                    
                     </p>
 
-
+                    
                     <form action="/api/postdata" method="post" id="my_form">
 
                             <h3 class="legend">Add data in 2  tables   <span class="w3-badge w3-tiny w3-green" id="test">connecte</span></h3>
@@ -157,12 +150,12 @@ function loadcache(){
 								<span class="fa fa-link" aria-hidden="true"></span>
 								<input type="url" name="website" placeholder="url"  id="url" required />
                             </div>
-
+                            
                             <div class="input">
 								<span class="fa fa-book" aria-hidden="true"></span>
                                 <select name="taxe_id" id="taxes" class="form-control" style="width: 400px";heigth:"30px" >
                                 <option value="0">by default</option>
-                                </select>
+                                </select>							
                             </div>
 							<button type="submit" class="btn submit"  id="button" value="Submit Form">Add liee</button>
  						</form>
@@ -175,12 +168,12 @@ function loadcache(){
  							<div class="input">
                              <table id="mycache" style=" padding: 10px;border: 1px solid black; border-collapse: collapse;">
                                 <tbody>
-
+                                    
                                 </tbody>
                                 </table>
                            </div>
-
-
+                          
+                            
 
                             <script>
 
@@ -194,14 +187,14 @@ function loadcache(){
 					<article>
  							<h3 class="legend last">Remote data</h3>
 							<p class="para-style">
-                            <div class="input">
+                            <div class="input"> 
                                 <table id="myTable" style=" padding: 10px;
       border: 1px solid black;
       border-collapse: collapse;">
                                 <tbody>
-
+                                    
                                 </tbody>
-                                </table></p>
+                                </table></p> 
                             </div>
 
                             <script>
@@ -217,7 +210,7 @@ function loadcache(){
 		</div>
 		<!-- copyright -->
 		<div class="copyright">
-
+			 
 		</div>
 		<!-- //copyright -->
 	</div>
@@ -249,7 +242,7 @@ function loadcache(){
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
-
+        
 
     <script>
 
@@ -264,20 +257,20 @@ function loadcache(){
 
 
 
-
+ 
 
 <script async src="js/user.js"></script>
+ 
 
 
 
-
-
-
+    
+  
 
 
 <script>
 
-
+    
 document.getElementsByTagName("BODY")[0].ononline = function() {onFunction()};
 document.getElementsByTagName("BODY")[0].onoffline = function() {offFunction()};
 
@@ -297,7 +290,7 @@ function offFunction() {
 }
 </script>
 
-
+  
 <script >
 var request = self.indexedDB.open('EXAMPLE_DB', 1);
 
@@ -329,18 +322,18 @@ request.onsuccess = function(event) {
     products.forEach(function(product){
 
 
-
-	event.preventDefault(); //prevent default action
+        
+	event.preventDefault(); //prevent default action 
 	var post_url = "/api/postdata"; //get form action url
 	var form_data = product; //Encode form elements for submission
-
+	
 	$.post( post_url, form_data, function( response ) {
         console.log(response);
 
 
     });
-
-
+        
+ 
 
         var db_op_req = productsStore.add(product);
 
@@ -382,16 +375,16 @@ request.onupgradeneeded = function(event) {
 </script>
 
     <script>
-$("#sync").click(function(event){
-
-
+$("#sync").click(function(event){ 
+  
+  
     var products= readAll();
-if(products){
-
+if(products){ 
+    
     $("#sync").hide();
     $('.preloader').show()
     window.setTimeout(function(){
-
+       
   $('.preloader').hide();
     }, 800);}
 
@@ -402,11 +395,11 @@ if(products){
     url: "/api/postdata",
     // The key needs to match your method's input parameter (case-sensitive).
     data:  'id='+ product.id  + '&email='+ product.email  + '&website='+product.url + '&taxe_id='+product.taxe_id,
-
+   
     success: function(data) {
         remove(product.id);
         console.log(data);
-
+         
     },
     error: function(jqXHR, textStatus, errorThrown){
         alert('Error: ' + textStatus + ' - ' + errorThrown);
@@ -420,8 +413,8 @@ $("#server").html( "la synchronisation est bien effectue:)");
 });
 
 $("#my_form").submit(function(event){
-
-	event.preventDefault(); //prevent default action
+     
+	event.preventDefault(); //prevent default action 
 	var post_url = $(this).attr("action"); //get form action url
 	var form_data = $(this).serialize(); //Encode form elements for submission
     var liee=new Object();
@@ -440,16 +433,16 @@ $("#my_form").submit(function(event){
        load();
     });
    }
-
+    
     else{
-
+        
         $("#server").html( "les donnees sont bien ajoutee a la cache :( " );
        $("#span").html(++num);
         add(liee);
         load();
-
+         
        loadcache();
-
+       
 
 
  console.log(
@@ -459,8 +452,8 @@ $("#my_form").submit(function(event){
 });
     </script>
 
-
-
+ 
+ 
 
 <script>
 
@@ -476,4 +469,4 @@ $("#my_form").submit(function(event){
 
 
 
-        <script type="text/javascript" src="/js/app.js"></script>
+ 

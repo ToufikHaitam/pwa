@@ -20,7 +20,7 @@ class CreateSousTypesTable extends Migration
             $table->unsignedBigInteger('type_id');
 
             $table->foreign('type_id')
-             ->references('id')->on('types')
+            ->references('id')->on('types')
              ->onDelete('cascade');
         });
     }
